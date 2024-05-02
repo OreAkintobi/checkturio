@@ -1,0 +1,46 @@
+{
+	"name": "Trailer Inspection",
+	"groups": [
+		{
+			"name": "Back side",
+			"checkpoints": [
+				{
+					"type": "string",
+					"name": "License Plate",
+					"placeholder": "ABC 123"
+				},
+				{
+					"type": "number",
+					"name": "VIN Number",
+					"placeholder": "1234567890"
+				}
+			]
+		},
+		{
+			"name": "Damages",
+			"checkpoints": [
+				{
+					"type": "boolean",
+					"name": "Tire condition",
+					"values": [
+						"Ideal",
+						"Worn out"
+					]
+				},
+				{
+					"type": "boolean",
+					"name": "Are there any new scratches or dents?",
+					"values": [
+						"Yes",
+						"No"
+					]
+				},
+				{
+					"type": "string",
+					"name": "Please evaluate overall condition of vehicle?",
+					"placeholder": "Vehicle is in ideal condition"
+				}
+			]
+		}
+	]
+}
